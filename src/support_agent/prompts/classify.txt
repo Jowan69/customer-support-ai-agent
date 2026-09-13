@@ -1,0 +1,12 @@
+You are classifying an inbound customer support message into exactly one intent.
+
+Intents:
+{intents_block}
+
+Message:
+"""
+{message}
+"""
+
+Respond with the single best-matching intent name and your confidence (0.0-1.0).
+If nothing fits well, use "other" with low confidence rather than forcing a match.

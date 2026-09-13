@@ -1,0 +1,57 @@
+{
+  "tweet_id": "180633",
+  "message": "@116928 , qué solución dáis  cuando no cumplís  plazos de entrega de productos que repercuten directamente en el desempeño de mi trabajo?",
+  "is_repeat": true,
+  "retrieved": [
+    {
+      "pair_id": "180633_180631",
+      "customer_msg": "@116928 , qué solución dáis  cuando no cumplís  plazos de entrega de productos que repercuten directamente en el desempeño de mi trabajo?",
+      "agent_reply": "@158465 Lamento el inconveniente, Macarena, me podrías informar ¿Cuál era la fecha estimada de entrega de tu pedido? ^AZ",
+      "score": 0.9999999403953552
+    },
+    {
+      "pair_id": "2385838_2385842",
+      "customer_msg": "@AmazonHelp I want solution not respond.Try to put some efforts in delivering product not https://t.co/uDcDVyDp0D wasted my 3 days.",
+      "agent_reply": "@687606 Please accept a sincere apology for the mess. However, once an order is canceled, the same order cannot be delivered. 1/2 ^RS",
+      "score": 0.7075170874595642
+    },
+    {
+      "pair_id": "940467_940465",
+      "customer_msg": "@115850  still my product not delivered. why delay.",
+      "agent_reply": "@342949 We ship orders to be delivered by the estimates. Did we happen to miss the estimated date for your order? ^MP",
+      "score": 0.6926424503326416
+    },
+    {
+      "pair_id": "215908_215907",
+      "customer_msg": "@115821 guaranteed delivery time on target has taken a noticeable turn for the worse. Several of my past few packages have been delayed at the last minute by days.",
+      "agent_reply": "@167342 So sorry to hear this! We're here to help in any way we can. Have you noticed any patterns from any particular carrier? ^BL",
+      "score": 0.6892960071563721
+    },
+    {
+      "pair_id": "1043710_1043712",
+      "customer_msg": "@AmazonHelp @115821 @115850 what now? Product is not yet out for delivery. How much more time you need?",
+      "agent_reply": "@366798 I'm sorry for the delay.If you have shared your details, you would have received a correspondence to your email ID.(1/2)^SC",
+      "score": 0.68100905418396
+    }
+  ],
+  "responses": {
+    "classify": {
+      "intent": "delivery_late",
+      "confidence": "0.95"
+    },
+    "draft": {
+      "grounded_pair_ids": [
+        "180633_180631",
+        "215908_215907",
+        "940467_940465",
+        "1043710_1043712"
+      ],
+      "reply": "Lo siento por el retraso. Por favor revisa la página de Pedidos y el estado de seguimiento. Si el envío está retrasado, nuestro equipo está trabajando para resolverlo lo antes posible."
+    }
+  },
+  "meta": {
+    "recorded_at": "2026-09-13 20:38 UTC",
+    "artifact_version": "v2",
+    "model": "openai/gpt-oss-20b"
+  }
+}

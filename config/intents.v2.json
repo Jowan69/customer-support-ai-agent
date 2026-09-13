@@ -1,0 +1,81 @@
+{
+    "version": "v2",
+    "intents": [
+        {
+            "name": "account_access",
+            "description": "The customer cannot get into their account: locked out, password rejected, verification code not arriving, or the sign-in page will not let them in."
+        },
+        {
+            "name": "account_manage",
+            "description": "Changing or administering an account the customer can already access: closing it, household members, addresses, registration details, settings."
+        },
+        {
+            "name": "contact_request",
+            "description": "The customer is asking how to reach a human - a phone number, live chat, or an escalation path. They want a channel, not an answer."
+        },
+        {
+            "name": "delivery_courier_issue",
+            "description": "A complaint about how the driver or courier handled the delivery: left in an unsafe place, signed for by someone else, damaged in handling, or stolen after being dropped off."
+        },
+        {
+            "name": "delivery_late",
+            "description": "The order has not arrived yet and is past, or about to miss, its promised delivery date. Tracking still shows it in transit or processing."
+        },
+        {
+            "name": "delivery_not_received",
+            "description": "Tracking says the package was delivered but the customer does not have it. Use this when the system claims completion and the customer disputes it."
+        },
+        {
+            "name": "delivery_wrong_location",
+            "description": "The package went to the wrong address, wrong country, or wrong carrier facility, or the customer wants it rerouted to a different location."
+        },
+        {
+            "name": "device_or_content_issue",
+            "description": "A device or digital service is not working: Echo, Alexa, Kindle, Fire TV, the app, Prime Video playback, or purchased digital content."
+        },
+        {
+            "name": "fraud_or_unauthorized",
+            "description": "Someone has used the customer's account or payment method without their permission: orders, reviews, gift cards or recurring charges they did not make, or an account they believe is compromised. Not the same as a refund dispute, where the customer made the purchase themselves."
+        },
+        {
+            "name": "item_damaged",
+            "description": "The item or its packaging arrived damaged, broken, or counterfeit."
+        },
+        {
+            "name": "item_wrong_or_missing",
+            "description": "The wrong item arrived, or part of an order is missing from a package that otherwise turned up."
+        },
+        {
+            "name": "no_action_needed",
+            "description": "Thanks, acknowledgement, or confirmation that a problem is resolved. Nothing is being asked for."
+        },
+        {
+            "name": "no_response_received",
+            "description": "The customer completed a step they were asked to take, or is waiting on a promised email or callback that never came."
+        },
+        {
+            "name": "order_status",
+            "description": "A question about an existing order itself - where it stands, how to cancel, modify, re-order, or start a return. Not about a delivery that has failed."
+        },
+        {
+            "name": "other",
+            "description": "Does not clearly match any other intent, or is a fragment of an ongoing conversation with no standalone meaning; catch-all."
+        },
+        {
+            "name": "pricing_or_promotion",
+            "description": "A dispute about price, discount, delivery-charge eligibility, or a promotion not being honoured. The customer disagrees with what they were charged or offered, not with whether a refund arrived."
+        },
+        {
+            "name": "prime_membership",
+            "description": "Questions or complaints about the Prime membership itself - its benefits, renewal, cancellation, or whether the service justifies its cost."
+        },
+        {
+            "name": "refund_status",
+            "description": "A refund was requested, promised, or issued and the customer has not received the money, or the amount is wrong. Includes payment method problems."
+        },
+        {
+            "name": "service_feedback",
+            "description": "Feedback about the quality of support or service received, positive or negative, without a specific unresolved request attached."
+        }
+    ]
+}

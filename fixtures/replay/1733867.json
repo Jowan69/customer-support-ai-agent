@@ -1,0 +1,54 @@
+{
+  "tweet_id": "1733867",
+  "message": "@AmazonHelp The 3 orders that are currently delayed are USPS.",
+  "is_repeat": false,
+  "retrieved": [
+    {
+      "pair_id": "1733867_1733869",
+      "customer_msg": "@AmazonHelp The 3 orders that are currently delayed are USPS.",
+      "agent_reply": "@523619 Sorry to hear this - please contact USPS so they can assist : https://t.co/mRrnHUJUdO ^TD",
+      "score": 1.000000238418579
+    },
+    {
+      "pair_id": "2478845_2478847",
+      "customer_msg": "@AmazonHelp I haven't received any emails explaining why order is delayed. My concern is larger trend emerging in last few months. This is 3rd occurrence of delayed order in last 2 weeks. I would appreciate someone senior in shipping dept. can take responsibility to investigate with USPS.",
+      "agent_reply": "@708438 We'd like to look into this with you, take carrier feedback, and review our available options. Please reach out to us by phone or chat here: https://t.co/hApLpMlfHN ^WT",
+      "score": 0.7783252000808716
+    },
+    {
+      "pair_id": "274742_274741",
+      "customer_msg": "@AmazonHelp Delayed status. Bigger item so I understand why USPS is being used to deliver, I prefer UPS it would be successful. Instead now I wait #TheUnknown",
+      "agent_reply": "@181636 I completely understand. We'd like to look into this further with you. When you have the chance, please reach out to us here: https://t.co/hApLpMlfHN so we can investigate! ^VB",
+      "score": 0.7612572908401489
+    },
+    {
+      "pair_id": "91525_91527",
+      "customer_msg": "@AmazonHelp Nope. Nothing. Just “carrier delay.” And now we’re up to three. Three prime orders, three “guaranteed” delivery dates, three misses.",
+      "agent_reply": "@135842 Thanks for the additional information! Are you having this issue with one specific carrier or with multiple carriers? ^SW",
+      "score": 0.7308642268180847
+    },
+    {
+      "pair_id": "2858086_2858084",
+      "customer_msg": "@AmazonHelp The only thing was to figure out where the package is and try to delay it. Rep I’m chatting with now says they can guarantee a delayed delivery with USPS for Thursday. Is that true? Never heard of that before.",
+      "agent_reply": "@185133 It depends on the local station, but many will hold and reschedule deliveries. We would suggest talking to them directly, if you have the time, to confirm. ^AM",
+      "score": 0.7191628217697144
+    }
+  ],
+  "responses": {
+    "classify": {
+      "intent": "delivery_late",
+      "confidence": 0.95
+    },
+    "draft": {
+      "grounded_pair_ids": [
+        "1733867_1733869"
+      ],
+      "reply": "Sorry to hear your 3 USPS orders are delayed. Please contact USPS for assistance. You can also view the tracking status on your Orders page."
+    }
+  },
+  "meta": {
+    "recorded_at": "2026-09-13 20:38 UTC",
+    "artifact_version": "v2",
+    "model": "openai/gpt-oss-20b"
+  }
+}

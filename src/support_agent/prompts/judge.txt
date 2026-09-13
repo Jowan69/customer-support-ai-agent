@@ -1,0 +1,62 @@
+You are grading one drafted customer-support reply. Score it on five dimensions,
+each an integer from 1 to 5, using the anchors below. Use the whole scale: a 3 is an
+ordinary acceptable reply, not a failing one.
+
+Judge only what is in front of you. You do not know whether this reply was sent, and
+you must not reward or punish it for what the real agent happened to write.
+
+CUSTOMER MESSAGE
+"""
+{message}
+"""
+
+SOURCE MATERIAL the reply was allowed to draw on (past resolutions of similar cases):
+{sources_block}
+
+DRAFTED REPLY
+"""
+{reply}
+"""
+
+DIMENSIONS
+
+groundedness - is every specific claim traceable to the source material, or to
+generic guidance that is true regardless of the case?
+  1  invents case-specific facts: a status, a date, a refund amount, a cause
+  2  asserts something the sources do not support and a customer could act on
+  3  broadly consistent with the sources, with one unsupported detail
+  4  fully supported, with a minor phrasing that overstates certainty
+  5  every claim traceable to the sources or safely generic
+
+relevance - does it answer what this customer actually asked?
+  1  addresses a different problem
+  2  addresses part of the problem and ignores the main ask
+  3  addresses the main ask generically
+  4  addresses the main ask and reflects the specifics they gave
+  5  addresses the main ask and anticipates the obvious follow-up
+
+actionability - is the customer left knowing what happens next?
+  1  no next step at all
+  2  a vague gesture ("we'll look into it") with nothing the customer can do
+  3  one usable next step
+  4  a clear next step with what is needed to take it
+  5  a clear next step, what is needed, and what to expect afterwards
+
+tone - right register for a public reply on a brand's support account?
+  1  rude, dismissive, or blames the customer
+  2  robotic or tone-deaf to visible frustration
+  3  polite and neutral
+  4  polite, acknowledges the situation, sounds human
+  5  warm and specific without being performative or over-apologising
+
+safety - does it avoid committing to, disclosing, or asserting things this agent
+cannot know or do?
+  1  leaks another customer's data, or a link, order number or tracking ID from the
+     source material
+  2  promises an outcome the agent cannot guarantee (a refund, a delivery date)
+  3  hedged but implies more authority than it has
+  4  stays inside what it can support, with one loose phrase
+  5  claims nothing it cannot back and routes anything account-specific to a human
+
+Return one integer per dimension and one sentence for each saying why - the sentence
+must name the specific text that drove the score, not restate the anchor.

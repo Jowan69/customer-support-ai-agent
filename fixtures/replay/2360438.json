@@ -1,0 +1,54 @@
+{
+  "tweet_id": "2360438",
+  "message": "@AmazonHelp \\o/ Yes! I try to buy a book that just exists in Fr. Lol. But I'm Brazilian n it doesn't ship to Brazil. So I try to send it a payd shipping service in US, buying with a Inter Credit card, limit ok. So Azn email me blocking my account. What's happening 😱 I can't do this?",
+  "is_repeat": false,
+  "retrieved": [
+    {
+      "pair_id": "2360438_2360440",
+      "customer_msg": "@AmazonHelp \\o/ Yes! I try to buy a book that just exists in Fr. Lol. But I'm Brazilian n it doesn't ship to Brazil. So I try to send it a payd shipping service in US, buying with a Inter Credit card, limit ok. So Azn email me blocking my account. What's happening 😱 I can't do this?",
+      "agent_reply": "@681660 We're sorry for the inconvenience, it's a security measure to check the information given on our website, in order to unlock your account, please follow the instructions received by email.\n^KE",
+      "score": 0.9999998807907104
+    },
+    {
+      "pair_id": "1132060_1132058",
+      "customer_msg": "@117086 meu amor!!!!! Temos que ver um serviço de entrega rápido nesse Brasil, pq a gnt fica mt ansioso pra chegar os livros",
+      "agent_reply": "@386756 Olá Alisson! ❤ No momento tem um pedido pendente de entrega? ^DA",
+      "score": 0.6597088575363159
+    },
+    {
+      "pair_id": "2801411_2801409",
+      "customer_msg": "@116090 guys!HELP ME! I’m from Brazil and send a package to my friend’s house in Toronto. One part of my order wasn’t delivered. The status says “available to pick up”, but nobody left a note for my friend where to pick it up! She’s coming to Brazil this friday! Pls! https://t.co/N59HQso52D",
+      "agent_reply": "@781504 Thanks for reaching out! Please contact us via phone or chat here: https://t.co/Q7Ftz6ETZy so we may look into this delivery together, as we're not able to see account information via Twitter. ^KL",
+      "score": 0.6368075609207153
+    },
+    {
+      "pair_id": "2883324_2883323",
+      "customer_msg": "#BibliotecaFamiliar no Brasil @117086, por favor. Incentive a leitura! Nunca te pedi nada.",
+      "agent_reply": "@799909 Oi Anderson, ainda sem previsão. Mas assim que tiver notícias, vocês serão os primeiros a saber. ^VL",
+      "score": 0.631155252456665
+    },
+    {
+      "pair_id": "422966_422964",
+      "customer_msg": "Imagina se a @117086 vendesse estantes para livros no Brasil!? #queroMaisEstantes #semEspaçoEmCasa #acumuladorDeLivro",
+      "agent_reply": "@215717 Olá, é muito amor pelos livros né? ❤️ conta para gente quantos livros você tem? https://t.co/WspFWHl5jM",
+      "score": 0.6308732032775879
+    }
+  ],
+  "responses": {
+    "classify": {
+      "intent": "account_access",
+      "confidence": 0.9
+    },
+    "draft": {
+      "grounded_pair_ids": [
+        "2360438_2360440"
+      ],
+      "reply": "Hi @AmazonHelp, sorry for the inconvenience. This is a security measure. Please review the instructions we sent to your email to unlock your account. If you don’t see it, check your spam folder."
+    }
+  },
+  "meta": {
+    "recorded_at": "2026-09-13 20:38 UTC",
+    "artifact_version": "v2",
+    "model": "openai/gpt-oss-20b"
+  }
+}

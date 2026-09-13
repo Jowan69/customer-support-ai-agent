@@ -1,0 +1,45 @@
+# --- secrets ---
+.env
+.env.*
+!.env.example
+
+# --- data ---
+# The raw dump (~500 MB) and everything derived from it are rebuildable: `make offline`.
+# data/labels/ is NOT ignored - golden.csv, human_scores.csv and LABELLING.md are
+# hand-made and are the only reason any eval number in this repo is checkable.
+data/raw/
+data/processed/
+
+# --- offline build output ---
+# ~500 MB per version: embeddings.npy, pairs.faiss, pairs_meta.parquet. The two small
+# files the eval actually needs are copied to frozen/ and committed from there.
+artifacts/
+
+# --- run + eval output ---
+# results/replies.csv, eval_report.md, judge_scores.csv, false_auto.csv and
+# reply_similarity.csv are committed on purpose: the report describes one frozen run,
+# and the run it describes has to ship with it.
+results/demo_replies.csv
+*_backup.csv
+*.tmp
+
+# --- local scratch ---
+.cache/
+Claude outputs/
+
+# --- python ---
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+build/
+dist/
+.ipynb_checkpoints/
+
+# --- os ---
+.DS_Store
+Thumbs.db

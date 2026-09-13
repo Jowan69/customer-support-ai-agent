@@ -1,0 +1,54 @@
+{
+  "tweet_id": "1203443",
+  "message": "注文を終えた商品がずっとカートに入りっぱなしになってる @116313",
+  "is_repeat": true,
+  "retrieved": [
+    {
+      "pair_id": "1203443_1203442",
+      "customer_msg": "注文を終えた商品がずっとカートに入りっぱなしになってる @116313",
+      "agent_reply": "@402713 アプリをご利用の場合は一度アプリの強制停止、再起動をお試しください。ブラウザの場合、キャッシュの削除をお試しください。問題が解決しない場合以下リンクよりカスタマーサービスにご連絡ください。https://t.co/J6YEizo6qC HM",
+      "score": 1.0000001192092896
+    },
+    {
+      "pair_id": "601331_601330",
+      "customer_msg": "@117795 Vaya racha que llevamos. 2 de 2 y hoy sin Cena porque perdieron más de la mitad del pedido. Cada vez más me planteo volver a ir a hacer la compra yo. @116928 Sin palabras",
+      "agent_reply": "@262654 Hola Alejandro. Lamentamos mucho lo sucedido. ¿Podrías confirmanos, cuál es la fecha estimada de entrega de tu pedido? ^HC",
+      "score": 0.7913820743560791
+    },
+    {
+      "pair_id": "2301610_2301611",
+      "customer_msg": "@AmazonHelp quando comprei tava disponível. entregaram os demais pedidos mas esse em especial aconteceu isso de ter esgotado",
+      "agent_reply": "@667966 Você já reportou o que indica com nossos companheiros de Suporte ao Cliente? ^DA",
+      "score": 0.7831867337226868
+    },
+    {
+      "pair_id": "1901980_1901979",
+      "customer_msg": "注文したのに勝手に消されとる",
+      "agent_reply": "@566829 失礼いたします。何らかの理由によりキャンセルとなった場合は、Ｅメールにてその旨お知らせしております。内容はメッセージセンターからご確認いただけます。https://t.co/A5H5tvBgbP ご不明点はカスタマーサービスにお問い合わせください。RI",
+      "score": 0.7723172903060913
+    },
+    {
+      "pair_id": "1257993_1257992",
+      "customer_msg": "あまぞんで注文した物が配達済みになっとるぞ…届いてないぞ…",
+      "agent_reply": "@414786 失礼いたします。配達完了にも関わらず、お手元に届いていない場合、ポストに投函されていないか、どなたかお受け取りでないかご確認いただき、問題解決しない場合は、こちらよりご連絡ください。https://t.co/J6YEizo6qC  SM",
+      "score": 0.7720826268196106
+    }
+  ],
+  "responses": {
+    "classify": {
+      "intent": "order_status",
+      "confidence": 0.9
+    },
+    "draft": {
+      "grounded_pair_ids": [
+        "1203443_1203442"
+      ],
+      "reply": "アプリを再起動またはキャッシュを消去してみてください。まだ問題が続く場合は、ご注文履歴ページでご確認いただき、必要に応じてカスタマーサービスへご連絡ください。"
+    }
+  },
+  "meta": {
+    "recorded_at": "2026-09-13 20:38 UTC",
+    "artifact_version": "v2",
+    "model": "openai/gpt-oss-20b"
+  }
+}
