@@ -13,7 +13,7 @@ needs a real install to have already succeeded — there's no lighter dev-only e
 ```
 git clone <this repo> && cd support-agent
 pip install -e ".[dev]"
-make eval
+make eval or python -m scripts.run_eval
 ```
 
 That writes `results/eval_report.md` in a few seconds. **No API key, no dataset
@@ -33,7 +33,7 @@ in the repo:
 To watch the pipeline itself run rather than read its scores:
 
 ```
-make demo
+make demo or python -m scripts.run_online --replay --limit 5
 ```
 
 Five real messages through classify → retrieve → draft → signals → decide, from
@@ -178,8 +178,8 @@ computed over 6 judged replies reads very differently from one computed over 200
 Three opt-ins need more than a checkout:
 
 ```
-make judge            # re-run the LLM judge over the frozen replies (needs a key; cached)
-make eval-live         # score retrieval by re-querying FAISS instead of scoring what the
+make judge or python -m scripts.run_eval --judge            # re-run the LLM judge over the frozen replies (needs a key; cached)
+make eval-live or python -m scripts.run_eval --retrieval-live         # score retrieval by re-querying FAISS instead of scoring what the
                        # run cited (needs the full artifacts/<version>/ set)
 make record-fixtures   # refresh fixtures/replay/ after a prompt, taxonomy, or model
                        # change (needs a key and the artifacts; the LLM cache covers
